@@ -7,6 +7,7 @@ import FooterCTA from './components/FooterCTA';
 import ExitIntentPopup from './components/ExitIntentPopup';
 import CookieBanner from './components/CookieBanner';
 import WhatsAppButton from './components/WhatsAppButton';
+import CallButton from './components/CallButton';
 import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
@@ -63,6 +64,7 @@ const App: React.FC = () => {
         <ExitIntentPopup />
         <CookieBanner />
         <WhatsAppButton />
+        <CallButton />
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
